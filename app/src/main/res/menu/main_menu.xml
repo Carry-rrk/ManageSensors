@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="刷新"
+        app:showAsAction="always"/>
+    
+    <item android:title="震动控制">
+        <menu>
+            <item
+                android:id="@+id/action_disable_vibrate"
+                android:title="禁用抖音震动"/>
+            <item
+                android:id="@+id/action_enable_vibrate"
+                android:title="启用抖音震动"/>
+        </menu>
+    </item>
+
+    <item android:title="麦克风控制">
+        <menu>
+            <item
+                android:id="@+id/action_disable_mic"
+                android:title="禁用抖音麦克风"/>
+            <item
+                android:id="@+id/action_enable_mic"
+                android:title="启用抖音麦克风"/>
+        </menu>
+    </item>
+</menu> 
